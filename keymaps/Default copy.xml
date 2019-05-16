@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+</keymap>

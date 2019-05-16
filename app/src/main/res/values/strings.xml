@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Healthway Medical</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_key" translatable="false">AIzaSyCawUSpzw9z2RJE0jzKz2iDaRk1pX1_68c</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_register">register</string>
+    <string name="title_myHealthBuddy">myHealthBuddy</string>
+    <string name="title_activity_account_type">accountType</string>
+    <string name="title_activity_login_client">loginClient</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+    <string name="title_activity_preview">preview</string>
+
+
+    <string name="Specilization">Speciality</string>
+    <string-array name="specialitySpinner">
+        <item><b>Please select a service…</b></item>
+        <item>General Practitioner (GPs)</item>
+        <item>Dental</item>
+        <item>Health Screening</item>
+        <item>Cardiology</item>
+        <item>General Orthopaedics</item>
+        <item>Physiotherapy</item>
+        <item>Psychology</item>
+    </string-array>
+
+    <string name="Location">Location</string>
+    <string-array name="locationSpinner">
+        <item><b>Preferred Clinic</b></item>
+        <item>Healthway Medical (Tampines)</item>
+        <item>Healthway Medical (Jurong)</item>
+        <item>Healthway Medical (Farrer Park)</item>
+        <item>Healthway Medical (Rivervale)</item>
+        <item>Healthway Medical (Clementi)</item>
+    </string-array>
+
+    <string name="Time">Time</string>
+    <string-array name="timeSpinner">
+        <item><b>Preferred Time</b></item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 PM</item>
+        <item>12:30 PM</item>
+        <item>13:00 PM</item>
+        <item>13:30 PM</item>
+        <item>14:00 PM</item>
+        <item>14:30 PM</item>
+    </string-array>
+
+</resources>

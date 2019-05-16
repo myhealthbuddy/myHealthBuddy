@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_CSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MedEnd"></activity>
+        <activity android:name=".MedView_Config" />
+        <activity android:name=".AddMed" />
+        <activity android:name=".preview" />
+        <activity android:name=".ChangePassword" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_myHealthBuddy"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".accountType"
+            android:label="@string/title_activity_account_type" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".ForgetPassword" />
+        <activity
+            android:name=".LoginClient"
+            android:label="@string/title_activity_login_client" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EnterPhoneNumber" />
+        <activity android:name=".PhoneVerification" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".AppointmentHistory" />
+        <activity android:name=".AppointmentDetail" />
+        <activity android:name=".RecyclerView_Config" />
+        <activity android:name=".ScheduleAppointment" />
+        <activity android:name=".AppointmentList" />
+        <activity android:name=".FirebaseDatabaseHelper" />
+        <activity android:name=".Appointment" />
+        <activity android:name=".FirebaseDataHelper" />
+        <activity android:name=".MedAlarm" />
+        <activity android:name=".preview" />
+        <activity android:name=".MedHistory" />
+        <activity android:name=".QRscanner" />
+        <activity android:name=".MedicationActivity" />
+    </application>
+
+</manifest>
